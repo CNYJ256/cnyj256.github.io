@@ -38,8 +38,13 @@ social:
   email: cnyj010@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
+<<<<<<< HEAD
     - https://github.com/CNYJ256 # change to your GitHub homepage
     
+=======
+    - https://x.com/give_you_a_kick # change to your Twitter homepage
+    - https://github.com/CNYJ256 # change to your GitHub homepage
+>>>>>>> c4fa1edcbc7551cea0fd7fe860ca84dfcb453cf2
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
