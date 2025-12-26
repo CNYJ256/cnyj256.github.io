@@ -3,12 +3,13 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
-
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
+
+- type: qq
+  icon: 'fab fa-qq'
+  url: 'tencent://AddContact/?fromId=45&fromSubId=1&subsource=Standard&uin=你的QQ号'
 
 - type: rss
   icon: "fas fa-rss"
