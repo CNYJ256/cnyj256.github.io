@@ -60,7 +60,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
-
+favicon:
+  apple_touch_icon: /assets/img/favicons/apple-touch-icon.png
   deploy:
     environment:
       name: github-pages
