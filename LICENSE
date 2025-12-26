@@ -1,8 +1,24 @@
+# Intellectual Property Notice
+
+## 1. Content and Original Works
+Copyright (c) 2025 CNYJ
+All original content in this repository, including but not limited to files in the `_posts` folder and original images in `assets`, is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).
+
+Under this license, you are free to share the material provided that:
+- Attribution: You must give appropriate credit to CNYJ.
+- Non-Commercial: You may NOT use the material for commercial purposes.
+- No-Derivatives: If you remix, transform, or build upon the material, you may not distribute the modified material.
+
+To view a copy of this license, visit: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+---
+
+## 2. Theme Software and Code
+The website theme and framework are based on the Chirpy theme by Cotes Chung. 
+The software/code part of this repository is licensed under the MIT License:
+
 MIT License
-
-Copyright (c) 2025 CNYJ (All original content and modifications)
-
-Copyright (c) 2021 Cotes Chung (Original theme framework)
+Copyright (c) 2021 Cotes Chung
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
