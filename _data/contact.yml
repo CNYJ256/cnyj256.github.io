@@ -9,7 +9,6 @@
 
 - type: qq
   icon: 'fab fa-qq'
-  url: 'tencent://AddContact/?fromId=45&fromSubId=1&subsource=Standard&uin=994050306'
 
 - type: rss
   icon: "fas fa-rss"
