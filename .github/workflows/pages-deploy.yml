@@ -61,7 +61,7 @@ jobs:
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
 favicon:
-  apple_touch_icon: /assets/img/favicons/apple-touch-icon.png
+  apple_touch_icon: /assets/img/avatar.jpg
   deploy:
     environment:
       name: github-pages
