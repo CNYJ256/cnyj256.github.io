@@ -1,6 +1,6 @@
 # Blog pages
 
-This is used as my personal blog,sharing my daily life .
+This is used as my personal blog, sharing my daily life.
 Do not use my original content for commercial use.
 
 ## 自定义指南 / Customization Guides

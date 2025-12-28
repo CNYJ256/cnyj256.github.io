@@ -39,7 +39,7 @@ Quick guide to change the favicon for your Jekyll Chirpy theme blog.
 Minimum required files for Chirpy theme:
 - `favicon.ico` - Traditional browser icon (32×32)
 - `favicon-16x16.png` - Small tab icon
-- `favicon-32x32.png` - Standard tab icon  
+- `favicon-32x32.png` - Standard tab icon
 - `apple-touch-icon.png` - iOS home screen icon (180×180)
 - `android-chrome-192x192.png` - Android icon
 - `android-chrome-512x512.png` - Android HD icon
