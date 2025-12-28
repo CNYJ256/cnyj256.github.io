@@ -13,6 +13,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap" # 自动生成站点地图的插件
   gem "jekyll-reboot-form"
   gem "jekyll-twitter-plugin"
+  end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
