@@ -1,6 +1,6 @@
 ---
 # the default layout is 'page'
-title: tool
-icon: fas fa-info-circle
-order: 5
+title: 工具
+icon: fa-solid fa-toolbox
+order: 4
 ---
