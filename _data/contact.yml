@@ -9,8 +9,10 @@
 
 - type: qq
   icon: 'fab fa-qq'
-  url: 'tencent://AddContact/?fromId=45&fromSubId=1&subsource=Standard&uin=994050306'
+  # 注意：这里使用了单引号包裹双引号，确保 JS 字符串正确
+  url: "javascript:alert('QQ号：994050306');"
   noblank: true
+
 
 - type: rss
   icon: "fas fa-rss"
