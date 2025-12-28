@@ -6,6 +6,14 @@ gem "jekyll-theme-chirpy", "~> 7.4", ">= 7.4.1"
 
 gem "html-proofer", "~> 5.0", group: :test
 
+group :jekyll_plugins do
+  gem "jekyll-changelog"
+  gem "jekyll-include-cache"
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap" # 自动生成站点地图的插件
+  gem "jekyll-reboot-form"
+  gem "jekyll-twitter-plugin"
+
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
