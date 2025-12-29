@@ -4,3 +4,29 @@ $font-family-base: "Source Sans Pro", "Microsoft Yahei", "PingFang SC", sans-ser
 $font-family-heading: "Lato", "Microsoft Yahei", "PingFang SC", sans-serif;
 
 @import "main";
+
+/* 侧边栏背景图片自定义 */
+#sidebar {
+  background-image: url("/assets/img/sidebar.png"); /* 使用根目录相对路径 */
+  background-size: cover;    /* 图像覆盖整个侧边栏 */
+  background-repeat: no-repeat;
+  background-position: center; /* 图像居中显示 */
+
+  /* 添加半透明遮罩，防止背景图太亮导致文字看不清 */
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* 0.4 是透明度，可根据喜好调节 */
+    z-index: -1; /* 确保遮罩在文字下方，图片上方 */
+  }
+}
+
+/* 确保侧边栏内容在遮罩层之上 */
+#sidebar > * {
+  position: relative;
+  z-index: 1;
+}
